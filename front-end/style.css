@@ -1,0 +1,90 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login, .cadastro {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#tabela {
+    margin-top: 30px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.anotacao {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+table {
+  width: 100%; /* Ajusta à largura do container */
+  border-collapse: collapse; /* Remove bordas entre células */
+  margin: 20px auto; /* Centraliza e adiciona margem */
+}
+
+th, td {
+  padding: 10px; /* Espaço interno nas células */
+  border: 1px solid #ccc; /* Borda fina para todas as células */
+  text-align: left; /* Alinhamento à esquerda do conteúdo */
+}
+
+th {
+  background-color: #eee; /* Cor de fundo do cabeçalho */
+  font-weight: bold; /* Texto em negrito no cabeçalho */
+}
+
+
+#tabela th
